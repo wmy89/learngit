@@ -2,7 +2,7 @@ import React, {
   Component
 } from 'react'
 import {App} from '../../components';
-import {TodoList} from '../../components';
+
 
 
 class Home extends Component {
@@ -10,7 +10,7 @@ class Home extends Component {
     return (
       <div>
         <h2>Home Page</h2>
-          <TodoList />
+
           <App />
       </div>
     )
